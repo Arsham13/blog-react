@@ -1,0 +1,16 @@
+.articles {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.articles a {
+    text-decoration: none;
+}
+h2 {
+    margin-bottom: 20px;
+}
+@media (width <= 500px) {
+    .articles {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}

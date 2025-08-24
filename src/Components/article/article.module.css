@@ -1,0 +1,57 @@
+.article {
+    border-radius: 10px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    background-color: #364156;
+
+    box-shadow: 0 0 15px -3px #212d40;
+
+    cursor: pointer;
+    width: 100%; /* همیشه به اندازه ستون باشه */
+    max-width: 500px; /* هیچ وقت از 400px بیشتر نشه */
+    margin: 0 auto; /* وقتی کوچیک شد وسط‌چین بشه */
+}
+
+.article .articleText {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 4.5%;
+}
+
+.article h4 {
+    color: #f0e9eb;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.article p {
+    font-size: 0.85em;
+    margin: 5px 0;
+    color: #f0e9eb83;
+}
+
+.article p span {
+    color: #f0e9ebd5;
+}
+
+.article img {
+    margin: 4.5%;
+    margin-bottom: 0;
+    max-width: 90%; /* همیشه به اندازه کانتینر */
+    height: auto; /* نسبت تصویر حفظ بشه */
+    border-radius: 10px; /* اگر می‌خوای گوشه‌ها گرد بشه */
+    object-fit: cover; /* عکس پر کنه بدون بهم‌ریختگی */
+    max-height: 150px; /* ارتفاع رو محدود کن تا خیلی بزرگ نشه */
+}
+
+@media (max-width: 380px) {
+    .article {
+        max-width: 100%;
+        /* height: auto; */
+    }
+}

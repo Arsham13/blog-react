@@ -1,0 +1,24 @@
+.button_wrapper{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button_wrapper button{
+    cursor: pointer;
+    background-color: #7d4e571a;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #7d4e57;
+    font-size: 1.1em;
+    color: #fff;
+    transition: 0.2s ease all;
+}
+.button_wrapper button:hover{
+    background-color: #7d4e57;
+}
+.button_wrapper button:active{
+    background-color: #6d434b;
+}

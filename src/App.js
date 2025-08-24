@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/home/Home";
+import About from "./pages/about/AboutUs";
+import ArticlePage from "./pages/articlePage/ArticlePage";
+import CreateArticle from "./pages/createArticle/CreateArticle";
+import NotFound from "./pages/404/NotFound";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="app">
+            <Routes>
+                <Route path="*" element={<NotFound />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/article/:id" element={<ArticlePage />} />
+                {/* روت داینامیک -> :id */}
+                <Route path="/create-article" element={<CreateArticle />} />
+            </Routes>
+        </div>
+    );
 }
 
 export default App;
