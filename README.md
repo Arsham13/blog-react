@@ -13,6 +13,12 @@
 
 
 ## :star2: About the Project
+
+### :camera: Screenshots
+<div align="center"> <a href=""><img src="screenshots/screencapture-localhost-3000-2025-08-24-19_55_03.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href=""><img src="screenshots/screencapture-localhost-3000-article-1-2025-08-24-19_55_28.png" alt='image' width='800'/></a> </div>
+
+
 ### :space_invader: Tech Stack
 <details> <summary>Client</summary> <ul>
 <li><a href="">Arsham Seraji</a></li>
@@ -55,18 +61,6 @@ https://github.com/Arsham13/blog-react
 ```
 Blog
 
-
-## :wave: Contributing
-
-<a href="https://github.com/Arsham13/blog-react/graphs/contributors"> <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> </a>
-
-Contributions are always welcome!
-
-see `contributing.md` for ways to get started
-
-### :scroll: Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/Arsham13/blog-react/blob/master/CODE_OF_CONDUCT.md)
 
 ## :handshake: Contact
 
