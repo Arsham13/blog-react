@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<div align='center'>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Blog with React</h1>
+<h4> <span> · </span> <a href="https://github.com/Arsham13/blog-react/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/Arsham13/blog-react/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/Arsham13/blog-react/issues"> Request Feature </a> </h4>
 
-## Available Scripts
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+# :notebook_with_decorative_cover: Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [About the Project](#star2-about-the-project)
+- [Contact](#handshake-contact)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## :star2: About the Project
+### :space_invader: Tech Stack
+<details> <summary>Client</summary> <ul>
+<li><a href="">Arsham Seraji</a></li>
+</ul> </details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### :dart: Features
+- react
+- react-router-dom
+- axios
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### :art: Color Reference
+| Color | Hex |
+| --------------- | ---------------------------------------------------------------- |
+| Primary Color | ![#7d4e57](https://via.placeholder.com/10/7d4e57?text=+) #7d4e57 |
+| Secondary Color | ![#11151c](https://via.placeholder.com/10/11151c?text=+) #11151c |
+| Accent Color | ![#364156](https://via.placeholder.com/10/364156?text=+) #364156 |
+| Text Color | ![#f0e9eb](https://via.placeholder.com/10/f0e9eb?text=+) #f0e9eb |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :toolbox: Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### :gear: Installation
 
-### `npm run eject`
+This project uses axios
+```bash
+npm install axios
+```
+This project uses react-router-dom
+```bash
+npm install react-router-dom
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### :running: Run Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone the project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+https://github.com/Arsham13/blog-react
+```
+Blog
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :wave: Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://github.com/Arsham13/blog-react/graphs/contributors"> <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> </a>
 
-### Code Splitting
+Contributions are always welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+see `contributing.md` for ways to get started
 
-### Analyzing the Bundle Size
+### :scroll: Code of Conduct
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Please read the [Code of Conduct](https://github.com/Arsham13/blog-react/blob/master/CODE_OF_CONDUCT.md)
 
-### Making a Progressive Web App
+## :handshake: Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Arsham Seraji - - arshamseraji@gmail.com
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/Arsham13/blog-react](https://github.com/Arsham13/blog-react)
